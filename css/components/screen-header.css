@@ -5,8 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: var(--horizontal-space);
     box-sizing: border-box;
+    background-color: white;
+    color: black;
 }
 .screen-header__title {
     font-size: 32px;
