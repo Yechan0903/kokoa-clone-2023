@@ -17,18 +17,11 @@
     position: relative;
 }
 .nav__not {
-    background-color: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: 400;
+
     position: absolute;
     left:18px;
     top: -15px;
+    
 }
 .nav__dot {
     background-color: tomato;
