@@ -20,3 +20,16 @@
 .screen-header__geardot {
     position: relative;
 }
+
+@keyframes rotategear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotategear 2s ease-in-out infinite;
+}
