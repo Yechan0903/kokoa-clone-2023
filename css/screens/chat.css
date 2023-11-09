@@ -115,6 +115,7 @@
     padding: 5px 25px;
     align-items: center;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
@@ -170,5 +171,9 @@
 
 .reply:focus-within input {
     width: 93vw;
-    transform: translateX(-13%);
+    transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+    transform: translateY(80px);
 }
