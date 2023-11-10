@@ -57,6 +57,7 @@
     animation: fadeinleft 0.3s ease-in-out forwards;
     animation-delay: 0.3s;
     opacity: 0;
+    z-index:-1;
 }
 .message-row img {
     width: 50px;
