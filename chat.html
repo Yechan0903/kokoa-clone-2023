@@ -1,95 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat - Kokoa Talk</title>
-</head>
-<body id="chat-screen">
+  </head>
+  <body id="chat-screen">
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>11%</span>
-            <i class="fa-solid fa-battery-full"></i>
-            <i class="fa-solid fa-bolt"></i>
-            <!--Battery, Lightning Icon-->
-        </div>
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+        <!--Battery, Lightning Icon-->
+      </div>
     </div>
 
     <header class="alt-header">
-        <div class="alt-header__column">
-            <a href="chats.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
-        </div>
-        <div class="alt-header__column">
-            <h1 class="alt-header__title">예찬</h1>
-        </div>
-        <div class="alt-header__column">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-            <i class="fa-solid fa-bars fa-2x"></i>
-        </div>
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">예지</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
     </header>
 
     <main class="main-screen main-chat">
-        <div class="chat__timestamp">
-            Saturday, november 11, 2023
-        </div>
+      <div class="chat__timestamp">Friday, May 26, 2023</div>
 
-        <div class="message-row">
-            <img src="img/me.jpeg" />
-            <div class="message-row__content">
-                <span class="message__author">예찬</span>
-                <div class="message__info">
-                    <div class="message__bubble">
-                    <span>안녕 혜리야!</span>
-                    <span>그동안 잘 지냈어?</span>
-                    <span>우리 2주년이 지나고 벌써 혜리 생일이네!</span>
-                    <span>생일축하해 혜리야ㅎㅎ</span>
-                    <span>처음으로 같이 지내는 생일이야~</span>
-                    <span>나와 함께하는 생일이 행복하길 바래!</span>
-                    <span>행복하게 해줄게ㅎㅎ</span>
-                    <span>혜리 RA가 많이 힘들어 보이는데 꼭 성공적으로 마무리 하길 바래...!</span>
-                    <span>연장이 안되면 더 좋을텐데ㅠㅠ</span>
-                    <span>지금 하고 있는 일 잘 마무리하구 올해 남은 일정도 다 잘될거야!</span>
-                    <span>얼마남지 않은 혜리의 2023년 행복한 일만 가득했으면 좋겠당</span>
-                    <span>다시 한번 생일축하하구 사랑해 혜리야♡</span>
-                    </div>
-                    <span class="message__time">21:27</span>
-                </div>
+      <div class="message-row">
+        <img src="img/yeji.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">예지</span>
+          <div class="message__info">
+            <div class="message__bubble">
+              <span>Hi!</span>
             </div>
+            <span class="message__time">21:27</span>
+          </div>
         </div>
+      </div>
 
-        <div class="message-row message-row--own">
-            <div class="message-row__content">
-                <div class="message__info">
-                    <span class="message__bubble">Hello</span>
-                    <span class="message__time">21:28</span>
-                </div>
-            </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hello</span>
+            <span class="message__time">21:28</span>
+          </div>
         </div>
+      </div>
     </main>
 
     <form class="reply">
-        <div class="reply__column">
-            <i class="fa-regular fa-square-plus fa-lg"></i>
-        </div>
-        <div class="reply__column">
-            <input type="text" placeholder="Write a message..." />
-            <i class="fa-regular fa-face-smile fa-lg"></i>
-            <button>
-                <i class="fa-solid fa-arrow-up"></i>
-            </button>
-        </div>
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
     </form>
     <div id="no-mobile">
-        <span>Your screen is too big ㅠㅠ</span>
+      <span>Your screen is too big ㅠㅠ</span>
     </div>
-    <script src="https://kit.fontawesome.com/c880a475b2.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/c880a475b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
